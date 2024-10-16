@@ -1,8 +1,0 @@
-import turtle
-import time
-import random
-scherm = turtle.Screen()
-scherm.title("Spel van Aymane")
-scherm.bgcolor("lightblue")
-scherm.setup(width=600, height=600)
-scherm.exitonclick(rightclick)

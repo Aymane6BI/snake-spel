@@ -1,0 +1,16 @@
+import turtle
+import time
+import random
+from code import Snake
+scherm = turtle.Screen()
+scherm.title("Spel van Aymane")
+scherm.bgcolor("lightblue")
+scherm.setup(width=600, height=600)
+scherm.tracer(0)
+scherm.exitonclick()
+snake = Snake()
+Game_is_on = True
+while Game_is_on:
+    scherm.update()
+    time.sleep(0.1)
+    snake.move()
